@@ -20,7 +20,7 @@ int method1(const int& count) {
 	srand(time(0));
 	vector<int> whiteBall = { 13, 18, 24, 29, 30, 32, 33, 34, 36, 37, 38, 39, 40,
 			41, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
-			61, 62, 63, 64, 65, 66, 67, 68 };
+			61, 62, 63, 64, 65, 66, 67, 68, 69 };
 
 	// pick 5 random number
 	set<int> randm;
@@ -42,8 +42,6 @@ int method1(const int& count) {
 		cout << " | " << (rand() % 26) + 1;
 		cout << endl;
 	}
-
-
 
 	return 0;
 }
